@@ -16,7 +16,7 @@ const lvl_arr = [];
 const songsInfo =
 { 
     song1 : {
-            src: "./Aerosmith -  I Don't Wanna Miss a Thing Lyrics.m4a#t=00:00:28",
+            src: "./songs/Aerosmith -  I Don't Wanna Miss a Thing Lyrics.m4a#t=00:00:28",
             correctAnswer: "Aerosmith - I Don't Wanna Miss a Thing",
             answers: ["Aerosmith - I Don't Wanna Miss a Thing",
             "Elton John - Rocket Man",
@@ -25,7 +25,7 @@ const songsInfo =
     },
 
     song2 : {
-        src: "./Bryan Adams - Heaven.m4a#t=00:00:04",
+        src: "./songs/Bryan Adams - Heaven.m4a#t=00:00:04",
         correctAnswer: "Bryan Adams - Heaven",
         answers: ["Guns N' Roses - November Rain",
         "Elton John - Rocket Man",
@@ -34,7 +34,7 @@ const songsInfo =
     },
 
     song3 : {
-        src: "./Childish Gambino - Redbone (Official Audio).m4a",
+        src: "./songs/Childish Gambino - Redbone (Official Audio).m4a",
         correctAnswer: "Childish Gambino - Redbone",
         answers: ["Childish Gambino - Redbone",
         "Elton John - Rocket Man",
@@ -43,7 +43,7 @@ const songsInfo =
     },
 
     song4 : {
-        src: "./Eagles - Hotel California (Lyrics).m4a",
+        src: "./songs/Eagles - Hotel California (Lyrics).m4a",
         correctAnswer: "Eagles - Hotel California",
         answers: ["Aerosmith - I Don't Wanna Miss a Thing",
         "Elton John - Rocket Man",
@@ -52,7 +52,7 @@ const songsInfo =
     },
 
     song5 : {
-        src: "./Elton John - Rocket Man (Official Music Video).m4a",
+        src: "./songs/Elton John - Rocket Man (Official Music Video).m4a",
         correctAnswer: "Elton John - Rocket Man",
         answers: ["Modjo - Lady (Hear Me Tonight)",
         "Elton John - Rocket Man",
@@ -60,7 +60,7 @@ const songsInfo =
         "Eagles - Hotel California"]
     },
     song6 : {
-        src: "./Jason Derulo - Whatcha Say (Video).m4a",
+        src: "./songs/Jason Derulo - Whatcha Say (Video).m4a",
         correctAnswer: "Jason Derulo - Whatcha Say",
         answers: ["Modjo - Lady (Hear Me Tonight)",
         "Radiohead - Creep",
@@ -68,7 +68,7 @@ const songsInfo =
         "Jason Derulo - Whatcha Say"]
     },
     song7 : {
-        src: "./Kanye West - Bound 2 (Explicit).m4a",
+        src: "./songs/Kanye West - Bound 2 (Explicit).m4a",
         correctAnswer: "Kanye West - Bound 2",
         answers: ["Aerosmith - I Don't Wanna Miss a Thing",
         "Kanye West - Bound 2",
@@ -76,7 +76,7 @@ const songsInfo =
         "Eagles - Hotel California"]
     },
     song8 : {
-        src: "./Modjo - Lady (Hear Me Tonight) (Official Video).m4a",
+        src: "./songs/Modjo - Lady (Hear Me Tonight) (Official Video).m4a",
         correctAnswer: "Modjo - Lady (Hear Me Tonight)",
         answers: ["Modjo - Lady (Hear Me Tonight)",
         "Radiohead - Creep",
@@ -84,7 +84,7 @@ const songsInfo =
         "Toto - Africa"]
     },
     song9 : {
-        src: "./Radiohead - Creep.m4a",
+        src: "./songs/Radiohead - Creep.m4a",
         correctAnswer: "Radiohead - Creep",
         answers: ["Aerosmith - I Don't Wanna Miss a Thing",
         "Elton John - Rocket Man",
@@ -92,7 +92,7 @@ const songsInfo =
         "Radiohead - Creep"]
     },
     song10 : {
-        src: "./Toto - Africa (Video).m4a",
+        src: "./songs/Toto - Africa (Video).m4a",
         correctAnswer: "Toto - Africa",
         answers: ["Toto - Africa",
         "Elton John - Rocket Man",

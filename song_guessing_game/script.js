@@ -208,7 +208,7 @@ function correctAnswer(){
             songsInfo.song1 = songsInfo.song10;}
         else if(counter === 10){
             songsInfo.song1 = {
-                src: "Aerosmith -  I Don't Wanna Miss a Thing Lyrics.m4a#t=00:00:28",
+                src: "./songs/Aerosmith -  I Don't Wanna Miss a Thing Lyrics.m4a#t=00:00:28",
                 correctAnswer: "Aerosmith - I Don't Wanna Miss a Thing",
                 answers: ["Aerosmith - I Don't Wanna Miss a Thing",
                 "Elton John - Rocket Man",

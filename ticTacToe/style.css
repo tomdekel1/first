@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
+
+body {
+    direction: rtl;
+    font-family: 'Rubik', sans-serif;
+    background-color: #36b5c4;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 16px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    gap: 5px;
+    margin: 30px auto;
+}
+
+#board>div {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#players {
+    display: flex;
+    justify-content: space-between;
+}
+
+#players>div {
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background: #ffffff2b;
+    display: flex;
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#players h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#players>div.currentTurn {
+    border: 3px solid;
+}
+
+#board>div.win {
+    background-color: coral;
+}
+
+#winMessage {
+    font-weight: 600;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10vw;
+}
+
+#new-game-btn{ 
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    margin: 50px;
+}
+
+#new-game-btn:hover{
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.51);
+}
+
+#reset-score-btn{
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    margin: 50px;
+}
+#reset-score-btn:hover{
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.51);
+}
+
+@media screen and (width < 800px) {
+    #new-game-btn{
+        padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    line-height: 30px;
+    }
+    #reset-score-btn{
+        padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    line-height: 30px;
+    }
+
+    #players>div {
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        background: #ffffff2b;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #players h2 {
+        margin: 0;
+        font-size: 1em;
+    }
+    
+}

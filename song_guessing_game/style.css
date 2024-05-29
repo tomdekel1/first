@@ -16,9 +16,8 @@ body{
     width: 80vw;
     height: 80vh;
     margin: auto;
-    background: #f7b5b5;
     border-radius: 20px;
-    background-image: url(./istockphoto-1175435360-612x612.jpg);
+    background-image: url(./images/istockphoto-1175435360-612x612.jpg);
     background-position: right;
 }
 

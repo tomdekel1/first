@@ -184,6 +184,12 @@ border: 1px solid rgb(37, 37, 37);
                 margin-top: 10px;
             }
 
+            #upper-section{
+                height: 63vh;
+                width: 80vw;
+                display: flex;
+            }
+
             .answers{
                 border-radius: 10px;
                 border: 1px solid #00f0f8;

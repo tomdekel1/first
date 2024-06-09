@@ -100,6 +100,7 @@ const songsInfo =
         "Eagles - Hotel California"]
     }
 }
+
 startButton.addEventListener("click", startGame);
 
 function startGame(){
@@ -222,12 +223,3 @@ function correctAnswer(){
     setTimeout(startGame, 1500);
 }
 
-// src: "Bryan Adams - Heaven.m4a"
-// src: "Childish Gambino - Redbone (Official Audio).m4a"
-// src: "Eagles - Hotel California (Lyrics).m4a"
-// "Elton John - Rocket Man (Official Music Video).m4a"
-// Jason Derulo - Whatcha Say (Video).m4a
-// Kanye West - Bound 2 (Explicit).m4a
-// Modjo - Lady (Hear Me Tonight) (Official Video).m4a
-// Radiohead - Creep.m4a
-// Toto - Africa (Video).m4a

@@ -1,0 +1,35 @@
+#board {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+
+}
+
+#board>div {
+  border: 1px solid #000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.ball {
+  background: #000;
+}
+
+.bubbles {
+  background: #ae1010;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+}

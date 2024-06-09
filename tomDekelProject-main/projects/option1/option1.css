@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#background {
+    background-image: url(./Path\ 15.png);
+    width: 100vw;
+    height: 55vh;
+}
+
+#content {
+    width: 30vw;
+    height: 642px;
+    position: relative;
+    top: 25%;
+    left: 55%;
+    background: #1A1A1AD4;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all-text {
+    width: 73%;
+    height: 66%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: space-between;
+}
+
+#content h1 {
+    font-size: 36px;
+    font-family: heebo;
+    font-weight: 900;
+}
+
+#content p {
+    font-size: 20px;
+    font-family: heebo;
+    font-weight: 400;
+}
+
+.form-text-box {
+    font-family: heebo;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    font-size: 16px;
+}
+
+.form-text-box input {
+    width: 100%;
+    height: 50px;
+    border: #D31C75 1px solid;
+}
+
+.form-text-box input[type="text"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 40%;
+    height: 50px;
+    background: #D31C75;
+    font-size: 22px;
+    font-family: heebo;
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+}
+
+
+/* breakpoints */
+
+@media screen and (max-width: 1200px) {
+
+    #content {
+        width: 81vw;
+        height: 70vh;
+        position: relative;
+        left: 10%;
+    }
+
+    #content h1 {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    #content p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .form-text-box {
+        font-size: 14px;
+    }
+
+    .form-text-box input {
+        height: 35px;
+    }
+
+
+    input[type="submit"] {
+        font-size: 15px;
+    }
+}

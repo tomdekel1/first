@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: assistant;
+}
+
+body {
+    background: #E5EEFF;
+    padding-top: 30px;
+}
+
+#container {
+    width: 65vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 20px;
+
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+#intro {
+    /* width: 31vw;
+    height: 52vh; */
+    background: #020253;
+    text-align: center;
+    grid-row: 1/3;
+    grid-column: 3/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#intro h1 {
+    font-size: 61px;
+    color: #0EE1DA;
+    margin-top: -70px;
+}
+
+#intro p {
+    font-size: 21px;
+    color: #F9F9F9;
+    margin-top: 30px;
+}
+
+#contact-form {
+    color: #fff;
+    grid-column: 1/3;
+    grid-row: 4/7;
+    background: #8E097C;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+
+
+form h3 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+form p {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+label {
+    color: #0EE1DA;
+}
+
+#container .kanu {
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    text-align: right;
+    margin-top: 15px;
+}
+
+
+input,
+textarea {
+    background: #E5EEFF;
+    width: 86%;
+    height: 60px;
+    border: none;
+    border-bottom: 4px solid #0EE1DA;
+}
+
+.message {
+    height: 172px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: #0EE1DA;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* breakpoints */
+@media screen and (max-width: 1200px) {
+    body {
+        padding-top: 120vw;
+    }
+
+    #container {
+        width: 90vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 145px);
+
+    }
+
+    #contact-form {
+        grid-column: 1/3;
+        grid-row: 5/8;
+    }
+
+    #container .kanu {
+        grid-column: 1/2;
+        grid-row: 9/10;
+
+    }
+
+    #intro {
+        position: absolute;
+        height: 50vh;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    #intro h1 {
+        font-size: 36px;
+    }
+
+    #intro p {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    form h3 {
+        font-size: 25px;
+        /* font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px; */
+    }
+
+    form p {
+        font-size: 15px;
+        width: 85%;
+        /* margin: auto; 
+            /* text-align: center; */
+        margin-bottom: 10px;
+    }
+
+    input {
+        height: 33px;
+    }
+
+    .message {
+        height: 95px;
+    }
+
+    input[type="submit"] {
+        margin-top: -5px;
+        background: #0EE1DA;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

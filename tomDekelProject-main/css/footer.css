@@ -1,0 +1,29 @@
+.social {
+    width: 100vw;
+    height: 25vh;
+    background: rgb(22, 194, 188);
+    display: flex;
+    flex-direction: column;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+
+.bottom {
+    width: 100vw;
+    height: 50px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}

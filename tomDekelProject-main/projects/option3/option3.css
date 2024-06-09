@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+}
+
+#container-img {
+    width: 60vw;
+
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#container-form {
+    direction: rtl;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+#container-form-title {
+    width: 55%;
+}
+
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.form-control>label {
+    font: normal normal bold 16px/24px Heebo;
+    color: #2C2C2C;
+}
+
+
+
+.form-control>input {
+    width: 418px;
+    height: 50px;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 5px solid #020253;
+}
+
+input[type=submit] {
+    width: 50%;
+    height: 50px;
+    background: #020253 0% 0% no-repeat padding-box;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+
+}
+
+#container-form-title>h1 {
+    font: normal normal 900 43px/63px Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+}
+
+#container-form-title>p {
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+}
+
+@media screen and (max-width: 1200px) {
+    #container {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #container-img {
+        width: 100vw;
+    }
+
+    #container-form-title {
+        width: 250px;
+    }
+
+    #container-form {
+        width: 100%;
+        margin: 1em auto;
+    }
+
+    #form {
+        width: 80%;
+    }
+
+    .form-control>input {
+        width: 250px;
+        height: 34px;
+    }
+
+    input[type=submit] {
+        width: 166px;
+        height: 50px;
+        background: #020253 0% 0% no-repeat padding-box;
+        font: normal normal bold 14px/19px Heebo;
+        letter-spacing: 0.21px;
+        color: #FFFFFF;
+
+    }
+
+    #container-form-title>h1 {
+        font: normal normal 900 28px/41px Heebo;
+        color: #020253;
+    }
+
+    #container-form-title>p {
+        font: normal normal normal 15px/22px Heebo;
+        color: #020253;
+    }
+
+    .form-control>label {
+        font: normal normal bold 10px/14px Heebo;
+        color: #2C2C2C;
+    }
+}

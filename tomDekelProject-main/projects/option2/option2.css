@@ -1,0 +1,132 @@
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: satisfy;
+          font-weight: 400;
+      }
+
+      body {
+          background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      #container {
+          width: 1100px;
+          height: 407px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      p:first-child {
+          font-size: 160px;
+          color: #fff;
+          height: 1.3em;
+      }
+
+      p:nth-child(2) {
+          font-size: 32px;
+          color: #fff;
+
+      }
+
+      p:nth-child(3) {
+          font-size: 16px;
+          color: #f9f9f9;
+
+      }
+
+      form {
+          width: 100%;
+          display: flex;
+          direction: rtl;
+          justify-content: space-between;
+          align-items: end;
+      }
+
+      label {
+          color: #f9f9f9;
+          font-size: 20px;
+      }
+
+      .form-text-box {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .form-text-box input {
+          width: 417.5px;
+          height: 50px;
+          background: #F6F6F624;
+          border: 2px solid #FFFFFF;
+          opacity: 1;
+      }
+
+      input[type="submit"] {
+          width: 206px;
+          height: 50px;
+          border: none;
+          color: #2823FD;
+      }
+
+      /* breakpoints */
+
+      @media screen and (max-width: 1200px) {
+          #container {
+              width: 80vw;
+              height: 71vh;
+              text-align: center;
+          }
+
+          p:first-child {
+              font-size: 60px;
+          }
+
+          p:nth-child(2) {
+              font-size: 18px;
+          }
+
+          p:nth-child(3) {
+              font-size: 16px;
+              margin-bottom: 30px;
+          }
+
+          form {
+              width: 100%;
+              height: 170px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+          }
+
+          .form-text-box {
+              align-items: start;
+          }
+
+          .form-text-box input {
+              width: 260px;
+              height: 36px;
+          }
+
+          label {
+              font-size: 11px;
+          }
+
+          input[type="submit"] {
+              width: 260px;
+              height: 33px;
+              font-size: 11px;
+          }
+      }
+
+      @media screen and (max-width: 340px) {
+          p:first-child {
+              font-size: 40px;
+          }
+      }

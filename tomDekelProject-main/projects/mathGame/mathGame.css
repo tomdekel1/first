@@ -1,0 +1,299 @@
+@font-face {
+  font-family: OKCrayonCrumble;
+  src: url(DkCrayonCrumble-ddll.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: OKCrayonCrumble, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(18, 141, 182);
+}
+
+#container {
+  background: rgb(86, 218, 227);
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  direction: rtl;
+  border: 10px solid #000;
+  background: url("/tomDekelProject-main/pictures/AdobeStock_387067227.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+
+#flex{
+  display: flex;
+  flex-direction: row;
+}
+
+#flex-container{
+  display: flex;
+  flex-direction: column;
+ width: 29vw;
+ height: 60vh;
+ align-items: center;
+ justify-content: center;
+}
+
+#board{
+  width: 8vw;
+  height: 36vh;
+  text-align: left;
+  font-size: 80px;
+  color: #fff;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  margin-right: 19%;
+  margin-top: 4%;
+}
+
+#board>div{
+  line-height: 0.7;
+}
+
+#answer{
+  height: 70px;
+  display: block;
+  color: #fff;
+  font-size: 70px;
+  max-width: 120px;
+  background: #303030;
+  border: none;
+  border-top: 3px solid #ffffff;
+  border-radius: 3px;
+   text-align: center;
+}
+
+#teacher-speech{
+  background: url(Speech_bubble.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  visibility: hidden;
+  margin-top: 8px;
+}
+
+#teacher-speech>div{
+  width: 100px;
+  height: 40px;
+  direction: ltr;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: darkorange;
+
+}
+
+h2 {
+  font-size: 30px;
+  margin: 15px;
+}
+
+.options-container {
+  display: flex;
+  width: 70%;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 15px;
+}
+
+#result-check{
+  width: 90px;
+  color: #fff;
+  background: #303030;
+  border: none;
+  font-family: OKCrayonCrumble, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#result-check:hover{
+  font-size: 50px;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 1px solid #009879;
+}
+
+thead {
+  background: #009879;
+
+}
+
+table {
+  width: 100%;
+  display:block;
+}
+ thead {
+  /* display: inline-block; */
+  width: 100%;
+  height: 20px; 
+}
+tbody {
+  height: 200px;
+  display: inline-block;
+  width: 100%;
+  overflow: auto; 
+} 
+td{
+  width: 30%;
+}
+
+
+
+@media screen and (width < 600px){
+
+  #container {
+    background: rgb(86, 218, 227);
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    direction: rtl;
+    border: none;
+    background: url("/tomDekelProject-main/pictures/AdobeStock_387067227.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+  }
+
+  #flex{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vw;
+    margin-top: 100%;
+  }
+
+  #flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 80vw;
+   height: 43vh;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+  }
+
+  #board{
+    width: 40vw;
+    height: 26vh;
+    text-align: left;
+    font-size: 60px;
+    color: #fff;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    margin-right: 45%;
+    margin-bottom: 15%;
+  }
+
+  #answer{
+    height: 40px;
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    max-width: 120px;
+    background: #303030;
+    border: none;
+    border-top: 3px solid #ffffff;
+    border-radius: 3px;
+     text-align: center;
+  }
+
+  h2{
+    display: none;
+  }
+
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    /* margin-top: 30px; */
+    align-items: end;
+    overflow: hidden;
+  }
+
+  .options{
+    width: 50%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  table {
+    width: 100%;
+    height: 80%;
+    display:block;
+    margin: 0;
+    margin-bottom: -15px;
+  }
+
+  #teacher-speech{
+    background: url(Speech_bubble.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    /* visibility: hidden; */
+    margin-top: 8px;
+    position: absolute;
+    top: 26%;
+  }
+
+  #teacher-speech>div{
+    width: 85%;
+    height: 50%;
+    direction: ltr;
+    margin-top: 15%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 0%;
+  }
+  
+}

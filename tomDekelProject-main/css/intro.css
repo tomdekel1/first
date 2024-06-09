@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+#site-intro {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5%  ;
+    height: 50vh;
+    background: url(../pictures/pexels-fwstudio-129731.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
+  border: 10px groove rgb(0, 0, 0);  
+}
+
+#site-intro h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.note{
+    position: relative;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left:78%;
+    top:50%;
+    display: none;
+}
+
+.animation{
+    animation-name: myAnimation;
+    animation-duration: 7000ms;
+    animation-fill-mode: forwards;
+}
+
+.note img{
+    max-width: 100%;
+    height: auto;
+    /* border: 1px solid #000; */
+   
+}
+
+@keyframes myAnimation{
+    0%{
+      opacity: 0;
+      transform: translate(-100%, 50%);
+    }
+    8%{
+      opacity: 1;
+     
+      transform: scale(0.5) translate(-20%, -20%);
+    }
+    50%{
+        transform: scale(0.5) translate(-20%, -20%);
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+        transform: scale(0.5) translate(-20%, -20%);
+    }
+  }
+
+.card-content{
+    position: absolute;
+    top:17%;
+    left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    width: 385px;
+    height: 340px;
+    /* border: 1px solid #000; */
+}
+
+#site-intro #quotes {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: 'nanum pen script';
+    text-align: left;
+    /* text-shadow: 5px 5px #5e6164; */
+    text-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-bottom: 80px;
+}
+
+/* about me */
+
+#about {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15%;
+}
+
+#about h3{
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #eff1f5;
+    padding: 3px;
+    border: 1px solid #0f0e0e;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    object-position: 50% 43%;
+
+}
+
+#about p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+
+#about a {
+    background-color: #4070f4;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 3px;
+}

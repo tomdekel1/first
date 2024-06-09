@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="mathGame.css">
+  <script src="mathGame.js" defer></script>
+</head>
+
+<body>
+<div id="container">
+    <div>
+      <h1>math game</h1>
+      </div>
+<div id="flex">
+    <div id="flex-container">
+   
+      <h2>אפשרויות משחק</h2>
+
+      <div class="options-container">
+
+        <div class="options">
+          <p>בחר אופרטור:</p>
+          <select id="action" oninput="actionGenerate(this.value)">
+            <option value="plus">פלוס +</option>
+            <option value="minus">מינוס -</option>
+            <option value="multi">כפל *</option>
+            <option value="divide">חילוק /</option>
+          </select>
+        </div>
+
+        <div class="options">
+          <p>בחר טווח מספרים:</p>
+          <select id="numSize" oninput="numGenerate(this.value)">
+            <option value=""></option>
+            <option value="ten">1-10</option>
+            <option value="hundred">1-100</option>
+            <option value="thousand">1-1000</option>
+          </select>
+        </div>
+
+      </div>
+    
+    <div>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>תרגיל</th>
+            <th>תשובה נכונה</th>
+            <th>תשובה שענית</th>
+            <th>נקודות</th>
+          </tr>
+        </thead>
+
+          <tbody>
+
+          </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+  <div id="teacher-speech">
+
+    <div>
+      <p>good job!</p>
+    </div>
+
+  </div>
+
+
+  <div id="board">
+    
+      <p id="exercise"></p>
+        <span id="num1">10</span>
+        <div>
+        <span id="MP"> + </span>
+        <span id="num2">10</span>
+        </div>
+        <input type="number" id="answer" placeholder="???">
+        <button id="result-check" onclick="resultCheck()">check</button>
+   
+  </div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

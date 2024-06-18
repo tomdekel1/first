@@ -83,7 +83,7 @@ const color_arr = {
 const BG_arr = [
     "/tomDekelProject-main/pictures/pexels-pixabay-220182.jpg",
     "/tomDekelProject-main/pictures/portfoiliobg2.jpg",
-    "/tomDekelProject-main/pictures/triangles-1430105_1280.webp",
+    "/tomDekelProject-main/pictures/triangles-HQ.png",
     "/tomDekelProject-main/pictures/portfolioBG.jpg",
     "/tomDekelProject-main/pictures/galaxy.jpg",
     "/tomDekelProject-main/pictures/galaxy2.jpg",

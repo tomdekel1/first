@@ -1,7 +1,7 @@
 # HTML/CSS Project README
 
 ## Project Description
-This project consists of 6 landing pages, each presenting a unique design challenge. The landing pages are implemented using HTML and CSS.
+This project consists of 6 landing pages, and 6 JavaScript projects each presenting a unique design challenge or coding skill. The projects are implemented using HTML, CSS, JavaScript, and bootstrap.
 
 ## Landing Pages
 1. Landing Page 1: [תן לנו להוביל אותך קדימה]
@@ -10,6 +10,14 @@ This project consists of 6 landing pages, each presenting a unique design challe
 4. Landing Page 4: [תן לנו להוביל אותך קדימה 2]
 5. Landing Page 5: [גלריית תמונות]
 6. Landing Page 6: [ייעוץ טלפוני חינם]
+
+## JavaScript Projects
+1. snake
+2.song guessing game
+3.tic tac toe 
+4.countries api 
+5. math game
+6. analog clock
 
 ## Installation
 1. Clone the repository to your local machine:

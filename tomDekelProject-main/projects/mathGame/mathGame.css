@@ -185,7 +185,7 @@ td{
 
 
 
-@media screen and (width < 600px){
+@media screen and (width < 1200px){
 
   #container {
     background: rgb(86, 218, 227);
@@ -221,28 +221,38 @@ td{
 
   #board{
     width: 40vw;
-    height: 26vh;
+    height: 20vh;
     text-align: left;
-    font-size: 60px;
+    font-size: 30px;
     color: #fff;
     direction: ltr;
     display: flex;
     flex-direction: column;
     margin-right: 45%;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
   }
 
   #answer{
-    height: 40px;
+    height: 25px;
     display: block;
     color: #fff;
-    font-size: 50px;
-    max-width: 120px;
+    font-size: 30px;
+    max-width: 60px;
     background: #303030;
     border: none;
     border-top: 3px solid #ffffff;
     border-radius: 3px;
      text-align: center;
+  }
+
+  #result-check{
+    width: 50px;
+    color: #fff;
+    background: #303030;
+    border: none;
+    font-family: OKCrayonCrumble, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
   }
 
   h2{

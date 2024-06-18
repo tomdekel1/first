@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+#container{
+    width: 100vw;
+    min-height: 100vh;
+    background: #773636;
+}
+
+#container>h1{
+    width: 20%;
+    margin: 0 auto 0 auto;
+    border-bottom: 10px solid red;
+    text-align: center;
+    font-size: 50px;
+}
+
+#questions-container{
+display: flex;
+justify-content: space-between;
+align-items: end;
+width: 70vw;
+margin: 20px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+}
+
+.question>input[type=submit]{
+    border: 1px solid #a3eb91;
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    color: #fff;
+    background: rgb(88, 158, 88);
+}
+
+#main-students-info{
+width: 90vw;
+min-height: 75vh;
+border: 1px solid #ffffff;
+margin: 0 auto 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.studentCard{
+    /* width: 15%; */
+    height: 22%;
+    border: 1px solid #ffffff;
+    border-radius: 20%;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+span{
+    color: rgb(46, 236, 62);
+}
+
+button{
+    background: #773636;
+    border: 1px solid #000000;
+    color: #fd0000;
+    border-radius: 20%;
+    padding: 5px;
+    margin: 5px 0 0 0;
+}

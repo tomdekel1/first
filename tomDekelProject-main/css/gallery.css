@@ -51,9 +51,9 @@
     /* box-shadow: 3px 3px 12px gray; */
     margin: 1em auto;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    background: url(../pictures/pexels-towfiqu-barbhuiya-9786294.jpg);
-
+    box-shadow: rgba(0, 0, 0, 0.56) 40px 50px 50px 40px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border: 2px solid #ffffff;
 }
 
 .card a {
@@ -67,7 +67,6 @@
 }
 
 .img-div {
-    background-image: url(../pictures/pexels-lukas-628241.jpg);
     height: 45%;
     width: 100%;
     background-position: fill;
@@ -78,6 +77,8 @@
 .img-div img {
     width: 100%;
     height: 100%;
+    border-radius: 15px 15px 0 0;
+
 }
 
 /* button {
@@ -110,6 +111,7 @@ button {
     transition: color .2s ease,
         background-color .2s ease,
         box-shadow .2s ease;
+        border: 5px inset #ffffff;
 }
 
 button:hover {

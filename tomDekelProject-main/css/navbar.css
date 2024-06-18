@@ -6,14 +6,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* #first-container{
-    width: 100%;
-    background: url('../pictures/triangles-1430105_1280.webp') no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow-x: hidden;
-} */
-
 html {
     scroll-behavior: smooth;
 }

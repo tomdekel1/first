@@ -98,7 +98,6 @@ input, select {
     position: relative;
     overflow: hidden;
     background: #2b2c2b;
-    /* background: url(/tomDekelProject-main/pictures/blue-triangles.webp); */
     box-shadow: 25px 25px 60px 25px rgb(0, 0, 0);
 }
 
@@ -215,7 +214,6 @@ background: #000;
         position: relative;
         overflow: hidden;
         background: #2b2c2b;
-        /* background: url(/tomDekelProject-main/pictures/blue-triangles.webp); */
         box-shadow: 25px 25px 60px 25px rgb(0, 0, 0);
     }
 

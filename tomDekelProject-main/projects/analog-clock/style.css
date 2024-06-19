@@ -1,97 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
-
-*{
-margin: 0;padding: 0;box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    direction: rtl;
-    font-family: 'Rubik', sans-serif;
+  direction: rtl;
+  font-family: "Rubik", sans-serif;
   /* background: url(/tomDekelProject-main/pictures/geometric-blue.jpg); */
   background: linear-gradient(#3644e0, #ffffff);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-#header{
-    width: 100vw;
-    /* display: none; */
+#header {
+  width: 100vw;
+  /* display: none; */
 }
 
-#options{
-display: inline-block;
-
+#options {
+  display: inline-block;
 }
-span{
-    margin-right: 20px;
-    font-weight: 700;
-    color: #FFF;
-    cursor: pointer
+span {
+  margin-right: 20px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
 }
 
 h1 {
-    color: rgb(248, 238, 238);
-    text-align: center;
-    margin: 0 40% 40px auto;
-    display: inline-block;
+  color: rgb(248, 238, 238);
+  text-align: center;
+  margin: 0 40% 40px auto;
+  display: inline-block;
 }
 
 .frame {
-    background: url(/tomDekelProject-main/pictures/geometric-blue.jpg);
-    background-repeat: no-repeat;
+  background: url(/first/tomDekelProject-main/pictures/geometric-blue.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 80%;
+  max-width: 900px;
+  min-height: 300px;
+  background-color: white;
+  margin: 0% auto 0 auto;
+  border-radius: 10%;
+  padding: 16px;
+  box-shadow: 25px 25px 80px 25px rgb(0, 0, 0);
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+
+.task {
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 12px 0;
+  margin: 0px;
+}
+
+button {
+  background-color: var(--bg);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 6px;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+input,
+select {
+  border: 1px solid;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+#analog-clock {
+  width: 500px;
+  height: 500px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background: #2b2c2b;
+  box-shadow: 25px 25px 60px 25px rgb(0, 0, 0);
+}
+
+#analog-clock > div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: gray;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#analog-clock > div > h2 {
+  font-size: 26px;
+}
+
+.hand {
+  position: relative;
+  z-index: 1;
+  /* transition: all 1s ease-out; */
+}
+
+.hand::after {
+  content: "";
+  display: block;
+  height: 45%;
+  margin: auto;
+  border-radius: 50% 50% 4px 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+}
+
+.hand.seconds:after {
+  width: 4px;
+  background-color: rgb(170, 21, 21);
+  border: 2px solid #000;
+}
+
+.hand.minuts:after {
+  background-color: rgb(0, 0, 0);
+  width: 10px;
+  height: 190px;
+  border: 1px solid #000;
+}
+
+.hand.hours:after {
+  width: 12px;
+  height: 135px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #000;
+}
+
+.hand.seconds::before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+#digital-clock {
+  direction: ltr;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  padding: 20px;
+  color: #fff;
+  width: 200px;
+  border: 10px groove #797474;
+  margin: 40px auto 0 auto;
+  background: #000;
+}
+
+@media screen and (width < 800px) {
+  .frame {
     background-position: center;
     background-size: cover;
 
-    width: 80%;
-    max-width: 900px;
-    min-height: 300px;
+    width: 100%;
+    width: 350px;
+    height: 480px;
     background-color: white;
     margin: 0% auto 0 auto;
     border-radius: 10%;
     padding: 16px;
-    box-shadow: 25px 25px 80px 25px rgb(0, 0, 0);
+    box-shadow: 0 0 4px #00000059;
     padding-bottom: 70px;
-    padding-top: 100px;
-   
-}
+    padding-top: 40px;
+  }
 
-.task {
-    border-bottom: 1px solid #c1c1c1;
-    padding-bottom: 12px;
-}
-
-h2 {
-    font-size: 18px;
-    font-weight: normal;
-    padding: 12px 0;
-    margin: 0px;
-}
-
-button {
-    background-color: var(--bg);;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 6px;
-    border: none;
-    margin: 6px;
-}
-
-button:hover {
-    filter: brightness(1.2);
-}
-
-input, select {
-    border: 1px solid;
-    padding: 8px 12px;
-    border-radius: 5px;
-    margin-top: 3px;
-}
-
-#analog-clock {
-    width: 500px;
-    height: 500px;
+  #analog-clock {
+    width: 250px;
+    height: 250px;
     border: 3px solid gray;
     border-radius: 50%;
     margin: auto;
@@ -99,145 +211,28 @@ input, select {
     overflow: hidden;
     background: #2b2c2b;
     box-shadow: 25px 25px 60px 25px rgb(0, 0, 0);
-}
+  }
 
-#analog-clock>div {
-    height: 100%;
-    width: 100%;
-    position: absolute;
+  h1 {
+    color: rgb(248, 238, 238);
     text-align: center;
-    color: gray;
-    line-height: 1;
-    font-weight: bold;
-    font-size: 10px;
- 
-}
+    margin: 0 40% 40px auto;
+    display: inline-block;
+    font-size: 20px;
+    display: none;
+  }
 
-#analog-clock>div>h2 {
-    font-size: 26px;
-}
-
-.hand {
-    position: relative;
-    z-index: 1;
-    /* transition: all 1s ease-out; */
-}
-
-.hand::after {
-    content: '';
-    display: block;
-    height: 45%;
-    margin: auto;
-    border-radius: 50% 50% 4px 4px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 50%;
-    
-}
-
-.hand.seconds:after {
-    width: 4px;
-    background-color: rgb(170, 21, 21);
-    border: 2px solid #000;
-}
-
-.hand.minuts:after {
-    background-color: rgb(0, 0, 0);
-    width: 10px;
-    height: 190px;
-    border: 1px solid #000;
-}
-
-.hand.hours:after {
-    width: 12px;
-    height: 135px;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid #000;
-}
-
-.hand.seconds::before {
-    content: '';
-    display: block;
-    height: 20px;
-    width: 20px;
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 2;
-    margin: auto;
-    border-radius: 50%;
-    border: 1px solid #000;
-}
-
-#digital-clock {
-    direction: ltr;
-    text-align: center;
-    font-size: 30px;
-    font-family: monospace;
-    padding: 20px;
+  span {
+    margin-right: 20px;
+    font-weight: 700;
     color: #fff;
-    width: 200px;
-border: 10px groove #797474;
-margin: 40px auto 0 auto;
-background: #000;
-}
+    cursor: pointer;
+  }
 
-
-@media screen and (width < 800px){
-
-    .frame {
-        background-position: center;
-        background-size: cover;
-    
-        width: 100%;
-        width: 350px;
-        height: 480px;
-        background-color: white;
-        margin: 0% auto 0 auto;
-        border-radius: 10%;
-        padding: 16px;
-        box-shadow: 0 0 4px #00000059;
-        padding-bottom: 70px;
-        padding-top: 40px;
-    }
-
-    #analog-clock {
-        width: 250px;
-        height: 250px;
-        border: 3px solid gray;
-        border-radius: 50%;
-        margin: auto;
-        position: relative;
-        overflow: hidden;
-        background: #2b2c2b;
-        box-shadow: 25px 25px 60px 25px rgb(0, 0, 0);
-    }
-
-    h1 {
-        color: rgb(248, 238, 238);
-        text-align: center;
-        margin: 0 40% 40px auto;
-        display: inline-block;
-        font-size: 20px;
-        display: none;
-    }
-
-    span{
-        margin-right: 20px;
-        font-weight: 700;
-        color: #FFF;
-        cursor: pointer;
-    }
-
-    #header{
-      margin: 10px auto 15% auto;
-        min-width: 345px;
-        max-width: 345px;
-        text-align: center;
-    }
-
+  #header {
+    margin: 10px auto 15% auto;
+    min-width: 345px;
+    max-width: 345px;
+    text-align: center;
+  }
 }

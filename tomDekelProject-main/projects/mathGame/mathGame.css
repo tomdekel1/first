@@ -21,27 +21,27 @@ body {
   margin: auto;
   direction: rtl;
   border: 10px solid #000;
-  background: url("/tomDekelProject-main/pictures/AdobeStock_387067227.jpeg");
+  background: url("/first/tomDekelProject-main/pictures/AdobeStock_387067227.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 40%;
 }
 
-#flex{
+#flex {
   display: flex;
   flex-direction: row;
 }
 
-#flex-container{
+#flex-container {
   display: flex;
   flex-direction: column;
- width: 29vw;
- height: 60vh;
- align-items: center;
- justify-content: center;
+  width: 29vw;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
 }
 
-#board{
+#board {
   width: 8vw;
   height: 36vh;
   text-align: left;
@@ -54,11 +54,11 @@ body {
   margin-top: 4%;
 }
 
-#board>div{
+#board > div {
   line-height: 0.7;
 }
 
-#answer{
+#answer {
   height: 70px;
   display: block;
   color: #fff;
@@ -68,10 +68,10 @@ body {
   border: none;
   border-top: 3px solid #ffffff;
   border-radius: 3px;
-   text-align: center;
+  text-align: center;
 }
 
-#teacher-speech{
+#teacher-speech {
   background: url(Speech_bubble.svg.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body {
   margin-top: 8px;
 }
 
-#teacher-speech>div{
+#teacher-speech > div {
   width: 100px;
   height: 40px;
   direction: ltr;
@@ -97,7 +97,6 @@ h1 {
   justify-content: center;
   font-size: 50px;
   color: darkorange;
-
 }
 
 h2 {
@@ -117,7 +116,7 @@ h2 {
   margin: 15px;
 }
 
-#result-check{
+#result-check {
   width: 90px;
   color: #fff;
   background: #303030;
@@ -127,10 +126,9 @@ h2 {
   margin-top: 10px;
 }
 
-#result-check:hover{
+#result-check:hover {
   font-size: 50px;
 }
-
 
 table {
   border-collapse: collapse;
@@ -161,32 +159,28 @@ table tbody tr:last-of-type {
 
 thead {
   background: #009879;
-
 }
 
 table {
   width: 100%;
-  display:block;
+  display: block;
 }
- thead {
+thead {
   /* display: inline-block; */
   width: 100%;
-  height: 20px; 
+  height: 20px;
 }
 tbody {
   height: 200px;
   display: inline-block;
   width: 100%;
-  overflow: auto; 
-} 
-td{
+  overflow: auto;
+}
+td {
   width: 30%;
 }
 
-
-
-@media screen and (width < 1200px){
-
+@media screen and (width < 1200px) {
   #container {
     background: rgb(86, 218, 227);
     width: 100vw;
@@ -194,32 +188,32 @@ td{
     margin: auto;
     direction: rtl;
     border: none;
-    background: url("/tomDekelProject-main/pictures/AdobeStock_387067227.jpeg");
+    background: url("/first/tomDekelProject-main/pictures/AdobeStock_387067227.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     position: relative;
   }
 
-  #flex{
+  #flex {
     display: flex;
     flex-direction: column-reverse;
     height: 100vw;
     margin-top: 100%;
   }
 
-  #flex-container{
+  #flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-   width: 80vw;
-   height: 43vh;
-   align-items: center;
-   justify-content: center;
-   margin: auto;
+    width: 80vw;
+    height: 43vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 
-  #board{
+  #board {
     width: 40vw;
     height: 20vh;
     text-align: left;
@@ -232,7 +226,7 @@ td{
     margin-bottom: 20%;
   }
 
-  #answer{
+  #answer {
     height: 25px;
     display: block;
     color: #fff;
@@ -242,10 +236,10 @@ td{
     border: none;
     border-top: 3px solid #ffffff;
     border-radius: 3px;
-     text-align: center;
+    text-align: center;
   }
 
-  #result-check{
+  #result-check {
     width: 50px;
     color: #fff;
     background: #303030;
@@ -255,7 +249,7 @@ td{
     margin-top: 0px;
   }
 
-  h2{
+  h2 {
     display: none;
   }
 
@@ -269,7 +263,7 @@ td{
     overflow: hidden;
   }
 
-  .options{
+  .options {
     width: 50%;
     margin: 0;
     margin-bottom: 20px;
@@ -278,12 +272,12 @@ td{
   table {
     width: 100%;
     height: 80%;
-    display:block;
+    display: block;
     margin: 0;
     margin-bottom: -15px;
   }
 
-  #teacher-speech{
+  #teacher-speech {
     background: url(Speech_bubble.svg.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -296,7 +290,7 @@ td{
     top: 26%;
   }
 
-  #teacher-speech>div{
+  #teacher-speech > div {
     width: 85%;
     height: 50%;
     direction: ltr;
@@ -305,5 +299,4 @@ td{
     font-weight: bold;
     margin-right: 0%;
   }
-  
 }

@@ -27,7 +27,7 @@ function addCards() {
       name: "snake",
       pic: "./pictures/snake-pic.png",
       title: "snake retro game",
-      preview: "tomDekelProject-main/projects/snake/projectpreview-snake.html",
+      preview: "./projects/snake/projectpreview-snake.html",
     },
     {
       name: "songGame",

@@ -27,7 +27,8 @@ function addCards() {
       name: "snake",
       pic: "./pictures/snake-pic.png",
       title: "snake retro game",
-      preview: "./projects/snake/projectpreview-snake.html",
+      preview:
+        "/first/tomDekelProject-main/projects/snake/projectpreview-snake.html",
     },
     {
       name: "songGame",
@@ -41,28 +42,28 @@ function addCards() {
       pic: "./pictures/tictactoe-pic.png",
       title: "old fashioned tic tac toe",
       preview:
-        "/tomDekelProject-main/projects/ticTacToe/projectpreview-tic-tac-toe.html",
+        "/first/tomDekelProject-main/projects/ticTacToe/projectpreview-tic-tac-toe.html",
     },
     {
       name: "countriesAPI",
       pic: "./pictures/countriesAPI-pic.png",
       title: "countries API",
       preview:
-        "/tomDekelProject-main/projects/countries api/projectpreview-countriesAPI.html",
+        "/first/tomDekelProject-main/projects/countries api/projectpreview-countriesAPI.html",
     },
     {
       name: "math-game",
       pic: "./pictures/mathGame-pic.png",
       title: "Math learning game",
       preview:
-        "/tomDekelProject-main/projects/mathGame/projectpreview-mathGame.html",
+        "/first/tomDekelProject-main/projects/mathGame/projectpreview-mathGame.html",
     },
     {
       name: "Clock Designer",
       pic: "./pictures/clockProject-pic.png",
       title: "javaScript rendered clock",
       preview:
-        "/tomDekelProject-main/projects/analog-clock/projectpreview-clockDesigner.html",
+        "/first/tomDekelProject-main/projects/analog-clock/projectpreview-clockDesigner.html",
     },
   ];
 

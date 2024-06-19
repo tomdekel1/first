@@ -49,7 +49,7 @@ function addCards() {
       pic: "./pictures/countriesAPI-pic.png",
       title: "countries API",
       preview:
-        "/first/tomDekelProject-main/projects/countries api/projectpreview-countriesAPI.html",
+        "/first/tomDekelProject-main/projects/countriesApi/projectpreview-countriesAPI.html",
     },
     {
       name: "math-game",

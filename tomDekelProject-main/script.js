@@ -34,7 +34,7 @@ function addCards() {
       pic: "./pictures/songGame-pic.png",
       title: "song guessing game",
       preview:
-        "/tomDekelProject-main/projects/song_guessing_game/projectpreview-songGame.html",
+        "/first/tomDekelProject-main/projects/song_guessing_game/projectpreview-songGame.html",
     },
     {
       name: "tic-tac-toe",
